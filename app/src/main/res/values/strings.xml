@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="input_calculation_expression">请输入计算表达式：</string>
+    <string name="the_result_is">计算结果为：</string>
+    <string name="calculate">计算</string>
+    <string name="expression_error">表达式有误，请重新输入！</string>
+</resources>
