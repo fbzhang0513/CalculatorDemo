@@ -27,6 +27,7 @@ android {
         }
         debug {
             signingConfig signingConfigs.Calculator
+            zipAlignEnabled false
         }
     }
     productFlavors {
