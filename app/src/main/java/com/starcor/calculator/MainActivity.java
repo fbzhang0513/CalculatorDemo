@@ -12,7 +12,8 @@ import com.starcor.calculator.exceptions.InvalidArgumentException;
 
 
 public class MainActivity extends Activity implements View.OnClickListener {
-    private  static final String TAG = MainActivity.class.getSimpleName();
+
+    private static final String TAG = MainActivity.class.getSimpleName();
 
     private EditText mEtInputExpression;
     private TextView mTvResult;
@@ -41,7 +42,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                     mTvResult.setText(result);
                 } catch (InvalidArgumentException e) {
                     Log.e(TAG, e.toString());
-                    Toast.makeText(this, R.string.expression_error, Toast.LENGTH_LONG);
+                    Toast.makeText(this, R.string.expression_error, Toast.LENGTH_LONG).show();
                 }
                 break;
 
