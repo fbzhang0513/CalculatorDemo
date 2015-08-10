@@ -45,7 +45,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
                     Toast.makeText(this, R.string.expression_error, Toast.LENGTH_LONG).show();
                 }
                 break;
-
         }
     }
 }
